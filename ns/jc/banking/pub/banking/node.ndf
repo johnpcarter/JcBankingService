@@ -437,8 +437,8 @@
       <Boolean name="recursive">false</Boolean>
       <null name="description"/>
       <record name="parameters" javaclass="com.wm.util.Values">
-        <record name="userId" javaclass="com.wm.util.Values">
-          <value name="name">userId</value>
+        <record name="customer_id" javaclass="com.wm.util.Values">
+          <value name="name">customer_id</value>
           <value name="source">QUERY</value>
           <value name="type">STRING</value>
           <null name="description"/>
@@ -730,10 +730,10 @@
             <value>/user_GET_$response</value>
           </array>
           <record name="parameters" javaclass="com.wm.util.Values">
-            <record name="claims" javaclass="com.wm.util.Values">
-              <value name="name">claims</value>
+            <record name="full_name" javaclass="com.wm.util.Values">
+              <value name="name">full_name</value>
               <value name="source">QUERY</value>
-              <value name="type">BINARY</value>
+              <value name="type">STRING</value>
               <null name="description"/>
               <Boolean name="isRequired">true</Boolean>
               <Boolean name="isArray">false</Boolean>
