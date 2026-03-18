@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="full_name">John Carter</value>
+    <value name="date_of_birth">1990/01/11</value>
+    <record name="contact" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="email">j.carter@ibm.com</value>
+      <value name="phone">0622851648</value>
+    </record>
+    <record name="address" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="street">11, rue bonplace</value>
+      <value name="city">Paris</value>
+      <value name="postal_code">75001</value>
+      <value name="country">FRANCE</value>
+    </record>
+  </record>
+</IDataXMLCoder>

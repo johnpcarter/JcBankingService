@@ -1,0 +1,9 @@
+{"owner": {
+	"customer_id": "string",
+	"full_name": "string",
+	"date_of_birth": "YYYY-MM-DD",
+	"contact": {
+	  "email": "string",
+	  "phone": "string"
+	}
+  }}

@@ -1,0 +1,34 @@
+{
+  "account_id": "string",            
+  "account_number": "string",         
+  "iban": "string",                  
+  "bic_swift": "string",             
+  "account_type": "string",          
+  "currency": "string",             
+  "bank": {
+	"bank_name": "string",
+	"branch_name": "string",
+	"branch_code": "string",
+	"country": "string"
+  },
+
+  "balance": {
+	"current_balance": "number",
+	"available_balance": "number",
+	"last_updated": "timestamp"
+  },
+
+  "status": "string",               
+  "opened_date": "YYYY-MM-DD",
+  "closed_date": "YYYY-MM-DD|null",
+
+  "limits": {
+	"daily_withdrawal_limit": "number",
+	"daily_transfer_limit": "number"
+  },
+
+  "security": {
+	"two_factor_enabled": "boolean",
+	"last_login": "timestamp"
+  }
+}
