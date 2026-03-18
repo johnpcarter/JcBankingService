@@ -1279,7 +1279,7 @@
 </MAP>
 </INVOKE>
 
-<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" CONDITION="%newBalance% > 0" FORM="IF">
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" CONDITION="%newBalanceSource% > 0" FORM="IF">
   <COMMENT></COMMENT>
 
   <!-- nodes -->

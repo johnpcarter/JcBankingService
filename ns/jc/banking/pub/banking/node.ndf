@@ -982,8 +982,8 @@
             <value>application/x-www-form-urlencoded</value>
           </array>
           <record name="parameters" javaclass="com.wm.util.Values">
-            <record name="user_id" javaclass="com.wm.util.Values">
-              <value name="name">user_id</value>
+            <record name="customer_id" javaclass="com.wm.util.Values">
+              <value name="name">customer_id</value>
               <value name="source">FORMDATA</value>
               <value name="type">STRING</value>
               <null name="description"/>
