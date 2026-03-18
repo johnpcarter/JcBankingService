@@ -1021,7 +1021,7 @@
             <record name="amount" javaclass="com.wm.util.Values">
               <value name="name">amount</value>
               <value name="source">FORMDATA</value>
-              <value name="type">STRING</value>
+              <value name="type">INTEGER</value>
               <null name="description"/>
               <Boolean name="isRequired">true</Boolean>
               <Boolean name="isArray">false</Boolean>

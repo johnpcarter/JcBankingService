@@ -16,7 +16,7 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">17</value>
+  <value name="build">18</value>
   <value name="description">Demo wM package to showcase fintech demo</value>
   <value name="created_date">17-03-2026 09:02:43 CET</value>
   <array name="extendedProperties" type="record" depth="1">
