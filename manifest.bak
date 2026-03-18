@@ -5,20 +5,24 @@
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <value name="name">JcBankingService</value>
-  <null name="startup_services"/>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="jc.banking._priv:startup"/>
+  </record>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmJDBCAdapter">*.*</value>
+  </record>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">10</value>
+  <value name="build">16</value>
   <value name="description">Demo wM package to showcase fintech demo</value>
   <value name="created_date">17-03-2026 09:02:43 CET</value>
   <array name="extendedProperties" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
       <value name="key">displayName</value>
-      <value name="value">Banking Services</value>
+      <value name="value"></value>
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="key">trusted</value>
@@ -26,11 +30,11 @@
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="key">status</value>
-      <value name="value">Prototype</value>
+      <value name="value">Development</value>
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="key">tags</value>
-      <value name="value">demo,banking,accounts</value>
+      <value name="value"></value>
     </record>
   </array>
   <null name="target_server_version"/>
