@@ -620,6 +620,12 @@
 <MAPCOPY FROM="/getAccountInfoOutput;2;0/results;2;1/bank_country;1;0" TO="/account;4;0;jc.banking.docs:Account/bank;2;0/country;1;0">
 </MAPCOPY>
 </MAP>
+</SEQUENCE>
+
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="ELSE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
 
 <EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="No such account combo: %user_id%, %account_id%">
   <COMMENT></COMMENT>

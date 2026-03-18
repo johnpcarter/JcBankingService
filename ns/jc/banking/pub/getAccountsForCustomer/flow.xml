@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.2" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -103,7 +104,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">user_id</value>
+        <value name="field_name">customer_id</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -120,7 +121,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/user_id;1;0" TO="/getAccountsForUserInput;2;0/customer_id;1;0">
+<MAPCOPY FROM="/customer_id;1;0" TO="/getAccountsForUserInput;2;0/customer_id;1;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>
@@ -417,7 +418,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">user_id</value>
+        <value name="field_name">customer_id</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -494,7 +495,7 @@
 <MAPDELETE FIELD="/getAccountsForUserInput;2;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/user_id;1;0">
+<MAPDELETE FIELD="/customer_id;1;0">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/getAccountsForUserOutput;2;0">
