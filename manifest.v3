@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="enabled">yes</value>
   <value name="system_package">no</value>
-  <value name="version">1.0.0.3</value>
+  <value name="version">1.0.3</value>
   <value name="name">JcBankingService</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="jc.banking._priv:startup"/>
@@ -16,7 +16,7 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">16</value>
+  <value name="build">17</value>
   <value name="description">Demo wM package to showcase fintech demo</value>
   <value name="created_date">17-03-2026 09:02:43 CET</value>
   <array name="extendedProperties" type="record" depth="1">
